@@ -1,0 +1,94 @@
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0px;
+    padding: 0;
+}
+
+/*Global */
+.container {
+    width: 80%;
+	margin: auto;
+	overflow: hidden;
+    background-color: #66ffff;
+    padding:38px;
+    box-shadow: 0 0 20px black;
+}
+
+.box-wrapper {
+    margin: 0px;
+    padding: 38px;
+}
+.box-wrapper h2 {
+    text-decoration: underline;
+}
+
+/* Headers */
+#header-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 38px;
+    margin: 0px;
+    border-bottom: 3px solid #009879;
+}
+
+#headers h1, h2, h3 {
+    color: #009879;
+}
+
+#image-head img {
+    width: 500px;
+    height: 500px;
+    
+}
+
+#headers {
+    text-align: center;
+}
+
+/* JOB TABLES */
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px black;
+}
+
+.content-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th, .content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.content-table tbody td ul li {
+    padding: 5px;
+}
+
+#skills-wrapper ul {
+    margin: 25px 0;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px black;
+}
+
+#skills-wrapper ul li {
+    padding: 5px;
+    margin: 3px;
+}
+
